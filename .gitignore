@@ -167,7 +167,8 @@ raw_data/
 build/
 dist/
 *.egg-info
-*.csv
+# *.csv
 *.sqlite
 *.zip
 gitignore/
+data_transformed/
