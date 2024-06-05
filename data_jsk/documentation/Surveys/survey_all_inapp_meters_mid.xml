@@ -1,0 +1,32 @@
+<AllSets>
+<!-- Options, Indexes, etc, sorted as strings. So 1-9,A,B... -->
+<QuestionSet id='all_inapp_meters_mid'>
+	<Question index='1'>
+	     <ConditionSet>
+	     </ConditionSet>
+	     <QuestionText>
+	         Please enter your ELECTRICITY meter reading below
+	         (include any initial zeros from the display, and
+	         exclude numbers after the decimal point or in red).
+	         Then tap the 'Submit' button. 
+	     </QuestionText>
+	     <FreeTextPosition>bottom</FreeTextPosition>
+	     <FreeTextQuestion></FreeTextQuestion>
+	     <FreeTextCompulsory>true</FreeTextCompulsory>
+  	</Question>
+  	<Question index='2'>
+	     <ConditionSet>
+	     </ConditionSet>
+	     <QuestionText>
+	         Please enter your GAS meter reading below 
+	         (include any initial zeros from the display, and
+	         exclude numbers after the decimal point or in red).
+	         Then tap the 'Submit' button.
+         </QuestionText>
+	     <FreeTextPosition>bottom</FreeTextPosition>
+	     <FreeTextQuestion></FreeTextQuestion>
+	     <FreeTextCompulsory>true</FreeTextCompulsory>
+  	</Question>
+</QuestionSet>
+
+</AllSets>

@@ -1,0 +1,326 @@
+<AllSets>
+<!-- Options, Indexes, etc, sorted as strings. So 1-9,A,B... -->
+<QuestionSet id='all_inapp_mid'>
+    
+   <Question index='0'>
+     <QuestionText>We're asking every participant. It will take about five to ten minutes. These are questions you may have answered previously - please answer them again so we can see how your feelings have changed.
+                <![CDATA[</br></br>]]>We are interested in your opinions - there are no right or wrong answers, so please say what you really think and feel. You don't have to answer any question if you don't want to.
+     </QuestionText>
+     <TextAboveSurveyText>false</TextAboveSurveyText>
+   </Question>
+   
+   <Question index='1'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 1 of 9 :<![CDATA[</span>]]></QuestionText>
+     <Option index='1'>
+        <OptionText>Do you have an idea of how much energy is used in your home?</OptionText>
+     </Option>
+     <GridOption index='1'>
+        <GridOptionText>No<![CDATA[</br>]]>idea<![CDATA[</br></br>]]>1</GridOptionText>
+     </GridOption>
+     <GridOption index='2'>
+        <GridOptionText>2</GridOptionText>
+     </GridOption>
+     <GridOption index='3'>
+        <GridOptionText>3</GridOptionText>
+     </GridOption>
+     <GridOption index='4'>
+        <GridOptionText>Some<![CDATA[</br>]]>idea<![CDATA[</br></br>]]>4</GridOptionText>
+     </GridOption>
+     <GridOption index='5'>
+        <GridOptionText>5</GridOptionText>
+     </GridOption>
+     <GridOption index='6'>
+        <GridOptionText>6</GridOptionText>
+     </GridOption>
+     <GridOption index='7'>
+        <GridOptionText>A very<![CDATA[</br>]]>good idea<![CDATA[</br></br>]]>7</GridOptionText>
+     </GridOption>
+   </Question>
+     
+   <Question index='2'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 2 of 9 :<![CDATA[</span>]]></QuestionText>
+     <Option index='1'>
+        <OptionText>Do you have an idea of convenient ways to minimise the amount of energy you use in your home?</OptionText>
+     </Option>
+     <GridOption index='1'>
+        <GridOptionText>No<![CDATA[</br>]]>idea<![CDATA[</br></br>]]>1</GridOptionText>
+     </GridOption>
+     <GridOption index='2'>
+        <GridOptionText>2</GridOptionText>
+     </GridOption>
+     <GridOption index='3'>
+        <GridOptionText>3</GridOptionText>
+     </GridOption>
+     <GridOption index='4'>
+        <GridOptionText>Some<![CDATA[</br>]]>idea<![CDATA[</br></br>]]>4</GridOptionText>
+     </GridOption>
+     <GridOption index='5'>
+        <GridOptionText>5</GridOptionText>
+     </GridOption>
+     <GridOption index='6'>
+        <GridOptionText>6</GridOptionText>
+     </GridOption>
+     <GridOption index='7'>
+        <GridOptionText>A very<![CDATA[</br>]]>good idea<![CDATA[</br></br>]]>7</GridOptionText>
+     </GridOption>
+   </Question>
+   
+   <Question index='4'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>The next questions will help give us an idea about what is important for you when you do day-to-day things at home that use energy.<![CDATA[</br></br>]]>Question 3 of 9 :<![CDATA[</span></br></br>]]>How important are each of these in your day-to-day life at home?</QuestionText>
+     <Option index='1'>
+        <OptionText>Keeping comfortable (comfortable temperature, comfortable surroundings, avoiding discomfort or pain).</OptionText>
+     </Option>
+     <Option index='2'>
+        <OptionText>Doing things in a way that’s convenient (time saving, low effort).</OptionText>
+     </Option>
+     <Option index='3'>
+        <OptionText>Keeping things clean (appearing clean, sterile, smelling fresh).</OptionText>
+     </Option>
+     <Option index='4'>
+        <OptionText>Being careful with how much money is spent.</OptionText>
+     </Option>
+     <Option index='5'>
+        <OptionText>Reducing my impact on the environment.</OptionText>
+     </Option>
+     <Option index='6'>
+        <OptionText>Doing what’s best for others in the household, such as helping them, and fitting in with their routines.</OptionText>
+     </Option>
+     <GridOption index='1'>
+        <GridOptionText>Not important at all<![CDATA[</br></br>]]>1</GridOptionText>
+     </GridOption>
+     <GridOption index='2'>
+        <GridOptionText>2</GridOptionText>
+     </GridOption>
+     <GridOption index='3'>
+        <GridOptionText>3</GridOptionText>
+     </GridOption>
+     <GridOption index='4'>
+        <GridOptionText>Somewhat important<![CDATA[</br></br>]]>4</GridOptionText>
+     </GridOption>
+     <GridOption index='5'>
+        <GridOptionText>5</GridOptionText>
+     </GridOption>
+     <GridOption index='6'>
+        <GridOptionText>6</GridOptionText>
+     </GridOption>
+     <GridOption index='7'>
+        <GridOptionText>Very important<![CDATA[</br></br>]]>7</GridOptionText>
+     </GridOption>
+   </Question>
+   
+   <Question index='5'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 4 of 9 :<![CDATA[</span></br></br>]]>Below are descriptions of some people. Would you please indicate for each description whether that person is very much like you, like you, somewhat like you, not like you, or not at all like you?</QuestionText>
+     <Option index='1'>
+        <OptionText>It is important to this person to think up new ideas and be creative; to do things one’s own way.</OptionText>
+     </Option>
+     <Option index='2'>
+        <OptionText>It is important to this person to be rich; to have a lot of money and expensive things.</OptionText>
+     </Option>
+     <Option index='3'>
+        <OptionText>Living in secure surroundings is important to this person; to avoid anything that might be dangerous.</OptionText>
+     </Option>
+     <Option index='4'>
+        <OptionText>It is important to this person to have a good time.</OptionText>
+     </Option>
+     <Option index='5'>
+        <OptionText>It is important to this person to do something for the good of society.</OptionText>
+     </Option>
+     <Option index='6'>
+        <OptionText>It is important for this person to help the people nearby; to care for their well-being.</OptionText>
+     </Option>
+     <Option index='7'>
+        <OptionText>Being very successful is important to this person; to have people recognize one’s achievements.</OptionText>
+     </Option>
+     <Option index='8'>
+        <OptionText>Adventure and taking risks are important to this person; to have an exciting life.</OptionText>
+     </Option>
+     <Option index='9'>
+        <OptionText>It is important to this person to always behave properly; to avoid doing anything people would say is wrong.</OptionText>
+     </Option>
+     <Option index='A'>
+        <OptionText>Looking after the environment is important to this person; to care for nature and save life resources.</OptionText>
+     </Option>
+     <Option index='B'>
+        <OptionText>Tradition is important to this person; to follow the customs handed down by one’s religion or family.</OptionText>
+     </Option>
+     <GridOption index='1'>
+        <GridOptionText>Not at all like me<![CDATA[</br></br>]]>1</GridOptionText>
+     </GridOption>
+     <GridOption index='2'>
+        <GridOptionText>Not<![CDATA[</br>]]>like<![CDATA[</br>]]>me<![CDATA[</br></br>]]>2</GridOptionText>
+     </GridOption>
+     <GridOption index='3'>
+        <GridOptionText>A<![CDATA[</br>]]>little<![CDATA[</br>]]>like me<![CDATA[</br></br>]]>3</GridOptionText>
+     </GridOption>
+     <GridOption index='4'>
+        <GridOptionText>Some<![CDATA[&shy;]]>what like<![CDATA[</br>]]>me<![CDATA[</br></br>]]>4</GridOptionText>
+     </GridOption>
+     <GridOption index='5'>
+        <GridOptionText>Like<![CDATA[</br>]]>me<![CDATA[</br></br>]]>5</GridOptionText>
+     </GridOption>
+     <GridOption index='6'>
+        <GridOptionText>Very much like me<![CDATA[</br></br>]]>6</GridOptionText>
+     </GridOption>
+   </Question>
+   
+   <Question index='6'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 5 of 9 :<![CDATA[</span></br></br>]]>Which of these statements best describes how you feel about your day-to-day life in the home and the environment?</QuestionText>
+     <Option index='1'>
+        <OptionText>I’m happy with what I do at the moment to help the environment.</OptionText>
+     </Option>
+     <Option index='2'>
+        <OptionText>I’d like to do a bit more to help the environment.</OptionText>
+     </Option>
+     <Option index='3'>
+        <OptionText>I’d like to do a lot more to help the environment.</OptionText>
+     </Option>
+   </Question>
+   
+   <Question index='7'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 6 of 9 :<![CDATA[</span></br></br>]]>To what extent do you agree with the following statements?</QuestionText>
+     <Option index='1'>
+        <OptionText>I often try new activities.</OptionText>
+     </Option>
+     <Option index='2'>
+        <OptionText>I am currently making a big transition in my life.</OptionText>
+     </Option>
+     <Option index='3'>
+        <OptionText>I have very little free time.</OptionText>
+     </Option>
+     <Option index='4'>
+        <OptionText>I am satisfied with my day-to-day life nowadays.</OptionText>
+     </Option>
+     <GridOption index='1'>
+        <GridOptionText>Strongly disagree<![CDATA[</br></br>]]>1</GridOptionText>
+     </GridOption>
+     <GridOption index='2'>
+        <GridOptionText>2</GridOptionText>
+     </GridOption>
+     <GridOption index='3'>
+        <GridOptionText>3</GridOptionText>
+     </GridOption>
+     <GridOption index='4'>
+        <GridOptionText>Neither agree nor disagree<![CDATA[</br></br>]]>4</GridOptionText>
+     </GridOption>
+     <GridOption index='5'>
+        <GridOptionText>5</GridOptionText>
+     </GridOption>
+     <GridOption index='6'>
+        <GridOptionText>6</GridOptionText>
+     </GridOption>
+     <GridOption index='7'>
+        <GridOptionText>Strongly agree<![CDATA[</br></br>]]>7</GridOptionText>
+     </GridOption>
+   </Question>
+   
+   <Question index='8'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 7 of 9 :<![CDATA[</span>]]></QuestionText>
+     <Option index='1'>
+        <OptionText>Thinking in general, how important is it to you in your day-to-day life at home to use as little energy as possible?</OptionText>
+     </Option>
+     <GridOption index='1'>
+        <GridOptionText>Not important at all<![CDATA[</br></br>]]>1</GridOptionText>
+     </GridOption>
+     <GridOption index='2'>
+        <GridOptionText>2</GridOptionText>
+     </GridOption>
+     <GridOption index='3'>
+        <GridOptionText>3</GridOptionText>
+     </GridOption>
+     <GridOption index='4'>
+        <GridOptionText>Somewhat important<![CDATA[</br></br>]]>4</GridOptionText>
+     </GridOption>
+     <GridOption index='5'>
+        <GridOptionText>5</GridOptionText>
+     </GridOption>
+     <GridOption index='6'>
+        <GridOptionText>6</GridOptionText>
+     </GridOption>
+     <GridOption index='7'>
+        <GridOptionText>Very important<![CDATA[</br></br>]]>7</GridOptionText>
+     </GridOption>
+   </Question>
+   
+   <Question index='A'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>The last two questions are about your working status and patterns.<![CDATA[</br></br>]]>Question 8 of 9 :<![CDATA[</span></br></br>]]>What is your main working status?<![CDATA[</br>]]>(the one you spend most time doing in a typical week)</QuestionText>
+     <Option index='1'>
+        <OptionText>Paid work</OptionText>
+     </Option>
+     <Option index='2'>
+        <OptionText>Self-employed</OptionText>
+     </Option>
+     <Option index='3'>
+        <OptionText>Unemployed (seeking work)</OptionText>
+     </Option>
+     <Option index='4'>
+        <OptionText>Unemployed (not seeking work)</OptionText>
+     </Option>
+     <Option index='5'>
+        <OptionText>A student in University, college, higher education or adult education</OptionText>
+     </Option>
+     <Option index='6'>
+        <OptionText>A student at school or in further education</OptionText>
+     </Option>
+     <Option index='7'>
+        <OptionText>Voluntary or unpaid work</OptionText>
+     </Option>
+     <Option index='8'>
+        <OptionText>Retired</OptionText>
+     </Option>
+     <Option index='9'>
+        <OptionText>Looking after home/family</OptionText>
+     </Option>
+     <Option index='A'>
+        <OptionText>Permanently sick/disabled</OptionText>
+     </Option>
+     <Option index='B'>
+        <OptionText>Other</OptionText>
+     </Option>
+   </Question>
+   
+   <Question index='B'>
+     <ConditionSet>
+     </ConditionSet>
+     <QuestionText><![CDATA[<span class="questionProgress">]]>Question 9 of 9 :<![CDATA[</span></br></br>]]>In a typical week, how many hours do you spend in total on paid work?<![CDATA[</br>]]>(include any paid and unpaid overtime, and self-employment; exclude meal breaks)</QuestionText>
+     <Option index='1'>
+        <OptionText>0</OptionText>
+     </Option>
+     <Option index='2'>
+        <OptionText>1-10</OptionText>
+     </Option>
+     <Option index='3'>
+        <OptionText>11-20</OptionText>
+     </Option>
+     <Option index='4'>
+        <OptionText>21-30</OptionText>
+     </Option>
+     <Option index='5'>
+        <OptionText>31-40</OptionText>
+     </Option>
+     <Option index='6'>
+        <OptionText>41-50</OptionText>
+     </Option>
+     <Option index='7'>
+        <OptionText>51+</OptionText>
+     </Option>
+   </Question>
+    
+</QuestionSet>
+
+</AllSets>
