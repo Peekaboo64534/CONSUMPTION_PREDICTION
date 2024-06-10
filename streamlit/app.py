@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
+import requests
 
 def welcome_page():
     # Customize page background and text colors
@@ -101,22 +102,40 @@ def prediction_page():
 
     # Prepare features for prediction
     features = {
-        'residents': num_people,
-        'room_count': num_rooms,
-        'workingstatus': working_status_code
+        'residents': str(num_people),
+        'room_count': str(num_rooms),
+        'workstatus': str(working_status_code)
     }
 
-    # Add location features
-    location_columns = [col for col in df.columns if col.startswith('location_name')]
-    for col in location_columns:
-        features[col] = 1 if col == f'location_name_{location}' else 0
+    ### ------ begin ------ Thais Code ---- But jsk commented out as not rqd atm
+    # # Add location features
+    # location_columns = [col for col in df.columns if col.startswith('location_name')]
+    # for col in location_columns:
+    #     features[col] = 1 if col == f'location_name_{location}' else 0
+    ### ------ end ------ Thais Code ---- But jsk commented out as not rqd atm
+
 
     # Add hometype feature
-    hometype_code = 1 if hometype == 'House' else 0
-    features['hometype_house_or_bungalow'] = hometype_code
+    hometype_code = 'house_or_bungalow' if hometype == 'House' else 'flat'
+    features['hometype'] = hometype_code
+
+    ### ------ begin ------ jsk
+    # Define local API endpoint
+    url = 'http://localhost:8000/predict'
+
+    # Create post request to the local API endpoint
+    response = requests.post(url, json=features).json()
+    prediction = response['prediction']
+    ### ------ end ------ jsk
 
     # Display the "Predict" button
     if st.sidebar.button('Predict'):
+
+        ### ------ begin ------ jsk
+        # Show single prediction
+        st.write(f'### Electricity Prediction: {prediction:.2f} kWh')
+        ### ------ end ------ jsk
+
         # Generate daily predictions
         date_range = pd.date_range(start=start_date, periods=num_days)
         daily_predictions = []
